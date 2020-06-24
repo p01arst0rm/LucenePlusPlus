@@ -1,60 +1,7 @@
-*~
-*.o
-*.aps
-*.tar.gz
-*.rar
-*.cmd
-*.suo
-*.ncb
-*.idb
-*.obj
-*.opt
-*.pch
-*.pyc
-*.log
-*.exe
-*.exp
-*.lib
-*.idb
-*.pdb
-*.ilk
-*.manifest
-*.user
-*.bak
-*.orig
-*.lock*
-*.waf*
 .DS_Store
+build*/*
+!buildfiles/*
 bin/*
-src/msvc/Debug DLL
-src/msvc/Debug Static
-src/msvc/Release DLL
-src/msvc/Release Static
-src/core/msvc/Debug DLL
-src/core/msvc/Debug Static
-src/core/msvc/Release DLL
-src/core/msvc/Release Static
-src/contrib/msvc/Debug DLL
-src/contrib/msvc/Debug Static
-src/contrib/msvc/Release DLL
-src/contrib/msvc/Release Static
-src/test/msvc/Debug DLL
-src/test/msvc/Debug Static
-src/test/msvc/Release DLL
-src/test/msvc/Release Static
-src/test/testfiles/temp
-src/demo/deletefiles/msvc/Release DLL
-src/demo/deletefiles/msvc/Release Static
-src/demo/deletefiles/msvc/Debug DLL
-src/demo/deletefiles/msvc/Debug Static
-src/demo/indexfiles/msvc/Release DLL
-src/demo/indexfiles/msvc/Release Static
-src/demo/indexfiles/msvc/Debug DLL
-src/demo/indexfiles/msvc/Debug Static
-src/demo/searchfiles/msvc/Release DLL
-src/demo/searchfiles/msvc/Release Static
-src/demo/searchfiles/msvc/Debug DLL
-src/demo/searchfiles/msvc/Debug Static
 CMakeCache.txt
 CMakeFiles/
 build/
@@ -62,24 +9,4 @@ CTestTestfile.cmake
 Makefile
 cmake_install.cmake
 cmake_uninstall.cmake
-include/Config.h
 install_manifest.txt
-liblucene++-contrib.pc
-liblucene++.pc
-src/contrib/CMakeFiles/
-src/contrib/CTestTestfile.cmake
-src/contrib/Makefile
-src/contrib/cmake_install.cmake
-src/core/CMakeFiles/
-src/core/CTestTestfile.cmake
-src/core/Makefile
-src/core/cmake_install.cmake
-src/demo/CMakeFiles/
-src/demo/CTestTestfile.cmake
-src/demo/Makefile
-src/demo/cmake_install.cmake
-src/test/CMakeFiles/
-src/test/CTestTestfile.cmake
-src/test/Makefile
-src/test/cmake_install.cmake
-

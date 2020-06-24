@@ -1,0 +1,62 @@
+# tomahawk project build options
+#============================================================================
+
+
+# compiler args
+#============================================================================
+
+option(
+    'ldflags',
+    type : 'array',
+    value : [
+        '-L/lib',
+        '-L/usr/lib',
+        '-L/usr/lib64',
+        '-L/usr/local/lib'],
+    description : 'Link flags')
+
+option(
+    'cxxflags',
+    type : 'array',
+    value : [
+        '-Wdeprecated', 
+        '-Wno-non-virtual-dtor',
+        '-Wno-unused-parameter'],
+    description : 'C build flags')
+
+option(
+    'with_demo',
+    type : 'boolean',
+    value : 'false',
+    description : 'Build Lucene++ with demo')
+
+option(
+    'with_tests',
+    type : 'boolean',
+    value : 'false',
+    description : 'Build Lucene++ with tests')
+
+
+# link args
+#============================================================================
+option(
+    'zlib_link_args', 
+    type : 'array', 
+    value : [
+        '-lz'], 
+    description : 'link args for zlib')
+
+option(
+    'boost_link_args', 
+    type : 'array', 
+    value : [
+        '-lboost_system',
+        '-lboost_context',
+        '-lboost_regex',
+        '-lboost_iostreams'], 
+    description : 'link args for boost')
+
+
+
+# optional dependancies
+#============================================================================
