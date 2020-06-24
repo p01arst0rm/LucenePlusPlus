@@ -197,7 +197,8 @@ protected:
     /// Used only by commit; lock order is commitLock -> IW
     SynchronizePtr commitLock;
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     SegmentInfosPtr pendingCommit; // set when a commit is pending (after prepareCommit() & before commit())
     int64_t pendingCommitChangeCount;
 

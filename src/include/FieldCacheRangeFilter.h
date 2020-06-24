@@ -42,7 +42,8 @@ public:
 
     LUCENE_CLASS(FieldCacheRangeFilter);
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     String field;
     ParserPtr parser;
     bool includeLower;

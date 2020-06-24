@@ -60,3 +60,15 @@ option(
 
 # optional dependancies
 #============================================================================
+
+option(
+    'use_boost_integers', 
+    type : 'boolean', 
+    value : 'false', 
+    description : 'whether to use boost integers')
+
+option(
+    'use_cyclic_check', 
+    type : 'boolean', 
+    value : 'false', 
+    description : 'whether to use cyclic checking')

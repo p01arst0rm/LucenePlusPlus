@@ -23,3 +23,7 @@ if (boost_dep.found())
         'HAVE_BOOST', 1,
         description : 'Define if the Boost library is available.')
 endif
+
+config_h.set(
+    'HAVE_BOOST',
+    boost_dep.found())

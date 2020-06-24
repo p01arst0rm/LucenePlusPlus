@@ -25,7 +25,8 @@ public:
 
     LUCENE_CLASS(TopScoreDocCollector);
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     ScoreDocPtr pqTop;
     int32_t docBase;
     ScorerWeakPtr _scorer;

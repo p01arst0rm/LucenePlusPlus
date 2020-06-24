@@ -112,7 +112,8 @@ public:
 
     LUCENE_CLASS(NumericRangeQuery);
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     String field;
     int32_t precisionStep;
     int32_t valSize;

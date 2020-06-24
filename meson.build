@@ -12,7 +12,7 @@ project(
     'lucene++',
     ['cpp', 'objcpp'],
     default_options : [
-        'cpp_std=c++11',
+        #'cpp_std=c++11',
         'warning_level=3',
         # 'optimization=3',
         'debug=true'
@@ -71,7 +71,7 @@ config_h.set_quoted(
     'PACKAGE_URL', package_url,
     description : 'Define to the home page for this package.')
 
-package_bug_url = 'https://github.com/p01arst0rm/tomahawk/issues'
+package_bug_url = 'https://github.com/kama-player/LucenePlusPlus/issues'
 config_h.set_quoted(
     'PACKAGE_BUGREPORT', package_bug_url,
     description : 'Define to the address where bug reports for this' +
@@ -139,7 +139,7 @@ foreach dir : project_dirs
 endforeach
 
 
-# foreach x : libtomahawk_gui_src
+# foreach x : liblucene_gui_src
 #     a = run_command('echo', x).stdout().strip()
 #     message(a)
 # endforeach

@@ -39,7 +39,8 @@ public:
 
     LUCENE_CLASS(CachingWrapperFilter);
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     FilterPtr filter;
 
     // for testing

@@ -20,7 +20,8 @@ public:
 
     LUCENE_CLASS(RAMFile);
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     int64_t length;
     RAMDirectoryWeakPtr _directory;
 

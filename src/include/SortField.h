@@ -81,7 +81,8 @@ public:
     /// This is typically slower than {@link #STRING}, which uses ordinals to do the sorting.
     static const int32_t STRING_VAL;
 
-INTERNAL:
+// TODO: FIX THIS
+public:
     bool reverse; // defaults to natural order
 
     String field;

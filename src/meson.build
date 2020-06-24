@@ -1,9 +1,11 @@
 # src build file
 #============================================================================
 
-lucene_inc += include_directories('.', 'include')
+lucene_inc += include_directories('.')
+lucene_pch = files()
 
 src_dirs = [
+    'include',
     'core',
     'contrib',
     'demo']

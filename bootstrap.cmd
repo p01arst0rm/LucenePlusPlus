@@ -17,7 +17,8 @@ REM add zlib path
 REM ------------------------------------------
 set cmake_path=%cmake_path%C:\local\zlib;
 
-
+REM call meson
+REM ------------------------------------------
 meson setup build --native-file .\buildfiles\native\x86_64-Windows.ini ^
 	-Ddefault_library=static ^
     -Dcmake_prefix_path="%cmake_path%" ^
